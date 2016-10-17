@@ -2,19 +2,49 @@
   <img class="avatar" src="{{ site.avatar }}" alt="{{ site.author }}">
   <div class="col-box-title name">{{ site.author }}</div>
   <p>{{ site.profile }}</p>
-  <p class="contact">
-    {% if site.github_username %}
-    <a href="https://github.com/{{ site.github_username }}">GitHub</a>
-    {% endif %}
-    {% if site.twitter_username %}
-    <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
-    {% endif %}
-    {% if site.email %}
-    <a href="mailto:{{ site.email }}">Email</a>
-    {% endif %}
+  <p >
+    <a href="{{ site.email }}" target="_blank" ><img src="{{site.baseurl}}/img/social/email.png" width="30" height="30" title="Contact via email. Preferred!"></a>
+    <a href="{{ site.linkedin }}" target="_blank"><img src="{{site.baseurl}}/img/social/linkedin.png" width="30" height="30" title="LinkedIn"></a>
+    <a href="{{ site.facebook }}" target="_blank"><img src="{{site.baseurl}}/img/social/facebook.png" width="30" height="30" title="Facebook"></a>
+    <a href="https://github.com/{{ site.github_username }}" target="_blank"><img src="{{site.baseurl}}/img/social/github.png" width="30" height="30" title="GitHub"></a>
+
   </p>
 </div>
 
+ <div class="col-box">
+   <div class="col-box-title">Research profiles</div>
+   <ul class="post-list">
+      <li><a href="http://researcher.ibm.com/researcher/view.php?person=br-rfsouza" target="_blank">IBM Research</a></li>
+      <li><a href="https://scholar.google.com.br/citations?user=x9t36ewAAAAJ&hl=en" target="_blank">Google Scholar</a></li>
+      <li><a href="http://lattes.cnpq.br/4414741541160361" target="_blank">CNPq Lattes</a></li>
+      <li><a href="https://www.researchgate.net/profile/Renan_Souza9" target="_blank">Research Gate</a></li>
+   </ul>
+</div>
+
+ <div class="col-box">
+   <div class="col-box-title">Affiliations</div>
+   <ul>
+      <li>
+        <p><a href="http://ufrj.br" target="_blank">UFRJ</a></p>
+          <ul class="post-list">
+            <li><a href="http://www.cos.ufrj.br/index.php/pt-BR/linhas-de-pesquisa-artigo/30-banco-de-dados-2" target="_blank">Banco de Dados</a></li>
+            <li><a href="http://www.cos.ufrj.br" target="_blank">Engenharia de Sistemas e Computação</a></li>
+            <li><a href="http://www.coppe.ufrj.br/" target="_blank">COPPE</a></li>
+         </ul>
+      </li>
+
+      <li>
+        <p><a href="http://researcher.ibm.com" target="_blank">IBM Research</a></p>
+          <ul class="post-list">
+            <li><a href="http://researcher.watson.ibm.com/researcher/view_group.php?id=5369" target="_blank">Social Data Analytics</a></li>
+            <li><a href="http://researcher.ibm.com/researcher/people.php?sn=1&loc=Brazil" target="_blank">Brazil Research Lab</a></li>
+         </ul>
+      </li>
+  </ul>
+   
+</div>
+
+<!--
 <div class="col-box">
   <div class="col-box-title">Newest Posts</div>
   <ul class="post-list">
@@ -23,7 +53,9 @@
     {% endfor %}
   </ul>
 </div>
-
+-->
+<!--
 <div class="col-box post-toc hide">
   <div class="col-box-title">TOC</div>
 </div>
+-->

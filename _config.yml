@@ -1,23 +1,31 @@
 # Site settings
-title: Another Blog
-url: "http://laobubu.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
-baseurl: "/jekyll-theme-EasyBook" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
+title: Renan Francisco Santos Souza
+url: "https://renan-souza.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
 #timezone: Asia/Chongqing
 description: >
-  One or more sentences introducing this blog.
+  High Performance Computing and Databases
 
 # Your information
-email: your_email@example.com
-author: your_name
-avatar: "//www.gravatar.com/avatar/your_email_md5?d=mm&s=135"
-profile: One sentence introducing yourself.
+email: http://www.google.com/recaptcha/mailhide/d?k=01opXV0QPWPfxyZx6axLHrZQ==&c=OVe7NnRO-A68dk1ZOZGmINeIv3RFFgodALAZISh0Ymg=
+author: Renan Souza
+profile: HPC, Databases, Big Data
+avatar: "//www.gravatar.com/avatar/33ea5563de8220f8e63cca439dc41a69?d=mm&s=135"
+linkedin:  https://www.linkedin.com/in/renansouza1
+facebook:  https://www.facebook.com/renan.francisco.souza
 #twitter_username: twitter_username
-#github_username:  github_username
+github_username:  renan-souza
 
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it
 #disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
 #duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
+
+nav_pages:
+  Home: '/'
+  Publications: '/publications/'
+  CV: '/cv/'
+  Projects: '/projects/'
 
 permalink: /archivers/:title
 gems:
@@ -35,3 +43,5 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+
+
