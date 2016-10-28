@@ -24,8 +24,8 @@ github_username:  renan-souza
 nav_pages:
   Home: '/'
   Publications: '/publications'
-  CV: '/cv'
-  Projects: '/projects'
+#  CV: '/cv'
+#  Projects: '/projects'
 
 permalink: /archivers/:title
 gems:
